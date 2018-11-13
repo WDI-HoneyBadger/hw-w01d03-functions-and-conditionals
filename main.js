@@ -8,6 +8,7 @@ function maxOfTwoNumbers(num1, num2){
 }
 maxOfTwoNumbers(5, 1);
 
+
 // Biggest Numbers #2
 function maxOfThree(arg1, arg2, arg3){
     if (arg1 > arg2 && arg1 > arg3) {
@@ -20,6 +21,9 @@ function maxOfThree(arg1, arg2, arg3){
 }
 
 maxOfThree(90, 4, 9);
+maxOfThree(8, 14, 3);
+maxOfThree(21, 40, 45);
+
 
 // The World Translator
 function helloWorld(language){
@@ -29,12 +33,16 @@ function helloWorld(language){
         console.log('مرحبا بالعالم');
     } else if (language === 'French') {
         console.log('Bonjour le monde');
+    } else {
+        console.log('Invalid input!')
     }
 }
 
 helloWorld('English');
 helloWorld('Arabic');
+helloWorld('Italian');
 helloWorld('French');
+
 
 // The Grade Assigner
 function assignGrade(score) {
