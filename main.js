@@ -48,6 +48,12 @@ assignGrade(78);
 
 //The Pluralizer
 function pluralize(noun,number){
-    console.log(`${number} ${noun}`);
+    if(number > 1){ 
+    console.log(`${number} ${noun}s`);
+    }else  {
+        console.log(`${number} ${noun}`);
+    }
 }
 pluralize('dog',4);
+pluralize('giraffe', 5); 
+pluralize('door', 1); 
