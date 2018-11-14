@@ -48,7 +48,8 @@ assignGrade(78);
 
 //The Pluralizer
 function pluralize(noun,number){
-    if(number > 1){ 
+    var ar=['sheep','geese','fish'];
+    if(number > 1 && !ar.includes(noun)){ 
     console.log(`${number} ${noun}s`);
     }else  {
         console.log(`${number} ${noun}`);
@@ -57,3 +58,6 @@ function pluralize(noun,number){
 pluralize('dog',4);
 pluralize('giraffe', 5); 
 pluralize('door', 1); 
+pluralize('fish', 3); 
+
+
