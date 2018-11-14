@@ -103,16 +103,13 @@ helloWorld(3);
             console.log(`${num} ${noun}s`);
         }
 
-    } else if (num <= 1) {
-        console.log(`${num} ${noun}s`);
     } else {
-        console.log(`${num} ${noun}`)
-    }
+        console.log(`${num} ${noun}`);
+    } 
 }
 
 
 pluralize('sheep', 3);
 pluralize('goose', 2);
 pluralize('dog', 4);
-pluralize('cat', 1)
-pluralize(1,1);
+pluralize('cat', 1);
