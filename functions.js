@@ -38,41 +38,17 @@ maxOfThree(23,23,23);
 
 /// Biggest Numbers//
 
-/* function myLanguage(){
-    if (Japanese)
-    console.log('こんにちは世界');
-}{
-    if (Spanish)
-    console.log('¡Hola mundo!');
+
+var helloWorld = function(words){
+    if (words == "Japanese"){ console.log("こんにちは世界")
+    }else if(words =="Spanish"){ console.log("¡Hola mundo!")
+    }else if (words == "English"){console.log("Hello World")
+  }
 }
-{
-    if (English)
-    console.log('Hello World');
-    }
+helloWorld("Japanese")
+helloWorld("Spanish")
+helloWorld("English")
 
-var English = 'Hello World';
-var Japanese = 'こんにちは世界';
-var Spanish = '¡Hola mundo!';
-myLanguage(Spanish) */
- 
-
-/*  function printLanguage(English,Spanish,Japanese){
-   var English = "Hello World";
-   var Spanish = "¡Hola mundo!";
-   var Japanese = "こんにちは世界";
-   
-    if (English)
-return ('Hello World');
-else if (Spanish)
-return ('¡Hola mundo!');
-else if (Japanese)
-return('こんにちは世界');
-}
-
-
-printLanguage('English');
-
- */
 
 
 
@@ -96,18 +72,12 @@ function myGrade( grade ){
     myGrade(82);
     myGrade(68);
     myGrade(92); 
-    //The Grade Assigner
+    
+    
 
-    /*var noun=['sheeps','geese','fish','octopi','cacti','sheep','goose','fish','octopus','cactus'];
-     function pluralize( noun, num){
-        
-        var noun=['sheeps','geese','fish','octopi','cacti','sheep','goose','fish','octopus','cactus'];
-
-        if (num > 1){
-        console.log(num + noun);
-        }else{
-            console.log(num + noun)
-        }
-
+    function pluralize(noun,num ){
+        if (num > 1){console.log(num + noun +"s");
+       }else{console.log(num + noun);
+     }
     }
-    pluralize( noun, 4);*/
+    pluralize("dog",3)
