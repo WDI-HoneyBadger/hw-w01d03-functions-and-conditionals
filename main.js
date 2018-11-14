@@ -2,7 +2,7 @@
 //1.Define a function maxOfTwoNumbers that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
 
 
-/* function maxOfTwoNumbers(num1, num2){
+ function maxOfTwoNumbers(num1, num2){
     if (num1>num2){
         console.log(`${num1} is the biggeset number`);
     } else if (num1<num2){ 
@@ -14,12 +14,12 @@
 
 maxOfTwoNumbers(2,3);
 maxOfTwoNumbers(5,5);
-maxOfTwoNumbers(7,6); */
+maxOfTwoNumbers(7,6); 
 
 //Biggest Num
 //2. Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
 
-/* function maxOfThree(num1, num2, num3){
+ function maxOfThree(num1, num2, num3){
     if (num1 !== num2 && num1 !== num3 && num2 !== num3){
         if   (num1>num2 && num1>num3){
             console.log(`${num1} is the largest out of the trhee numbers`);
@@ -38,10 +38,10 @@ maxOfThree(7,7,7);
 maxOfThree(6,2,9);
 maxOfThree(1,8,2);
 
- */
+
 
  //The World Translator
-/* function helloWorld(langCode){
+ function helloWorld(langCode){
     if (langCode === 'English' || langCode === 'Arabic' || langCode === 'French'){
         if (langCode === 'English'){
             console.log(`Let me see Hello, World in ${langCode}`);
@@ -59,11 +59,11 @@ helloWorld('Arabic');
 helloWorld('english');
 helloWorld(null);
 helloWorld(3);
- */
+
 
  //The Grade Assigner
  
- /* function assignGrade(gradeScore){
+ function assignGrade(gradeScore){
      if (gradeScore >= 90){
          console.log('Awesome, you got an A!');
      } else if (gradeScore >= 80){
@@ -79,19 +79,11 @@ helloWorld(3);
 
  assignGrade(60);
  assignGrade(true);
- assignGrade('70'); */
+ assignGrade('70'); 
  // seems like I'm a mean teacher :|
 
  //The Pluralizer
-/* function pluralize(noun, num){
-      if (num == 1 || noun == "sheep" || noun == "geese") {
-        console.log(`${num}, ${noun}`);
-      } else if (num > 1) {
-        console.log(`${num}, ${noun} + "s"`);
-      } else {
-        console.log('Wrong arguments!');
-      }
-  } */
+
 
   function pluralize(noun, num){
     if (num > 1){
