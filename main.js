@@ -87,3 +87,5 @@ console.log('"',number,' ',noun,'"');
 
 pluralizer('giraffe',1);
 pluralizer('door',2);
+pluralizer('cat',5);
+pluralizer('dog',1);
