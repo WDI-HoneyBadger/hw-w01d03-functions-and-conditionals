@@ -12,16 +12,7 @@ function maxOfTwoNumbers (num1 , num2) {
     maxOfTwoNumbers (20, 60);
     maxOfTwoNumbers (300, 40);
 
-///////////////////////////////2/////////////////////////////////////////
-function maxOfThree(num1, num2, num3){
-    console.log("The largest number is = ", Math.max(num1, num2, num3));
-}
 
-maxOfThree(3, 40, 93);
-maxOfThree(211, 70, 88);
-maxOfThree(10, 188, 90);
-
-//or
 ///////////////////////////////2/////////////////////////////////////////
 
 function maxOfThree2 (a, b, c) {
@@ -92,11 +83,11 @@ scores(50);
 
 
 function pluralize(str, number){
-if (number > 1 && str !== "sheep" && str !== "geese" && str !== "pencil" && str !== "Mobile"){
-        console.log(`${number} ${str}s`);
+if (number > 1 && string2 !== "sheep" && string2 !== "geese" && string2 !== "pencil" && string2 !== "Mobile"){
+        console.log(`${number} ${string2}`);
     } 
     else {
-        console.log(`${number} ${str}`);
+        console.log(`${number} ${string2}`);
     } };
 
 
