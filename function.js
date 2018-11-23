@@ -1,40 +1,60 @@
-var mathMax = 
-maxOfTwoNumbers =
-function maxOfTwoNumbers(num1, num2) {
-    if (num1 || num2) {
-        consol.log("Mathmax(num1, num2)");
 
-} else {
-console.log("nothing");
-}
+//Part //
+// 1
+function maxOfTwoNumbers(num1, num2){
+
+    if ( num1 > num2 ){
+        return num1;
+    } else {
+        return num2;
+    }
 };
-maxOfTwoNumbers(2, 4);
+console.log(maxOfTwoNumbers(23, 50));
 
-var helloWorld = function (english, arabic, frensh) {
-    if (english) {
-        console.log("helloworld");
-    } else if (arabic) {
-        console.log("مرحبا");
-    } else if (frensh) {
-        console.log("Bonjour le monde");
+
+// 2
+function maxOfThree (num1, num2, num3) {     
+        return Math.max (num1, num2, num3); 
+    }
+console.log (maxOfThree (15,24,55));
+
+
+//-------------PART Two ---------------//
+function helloWorld (languge){
+    if(languge == 'english'){
+        return "Hello World";
+    } else if(languge == 'arabic'){
+        return "مرحبا بالعالم";
+    } else{
+        return "Bonjour le monde";
     }
 };
 
-function helloWorld(frensh);
+console.log (helloWorld('arabic'));
+console.log (helloWorld('english'));
+console.log (helloWorld('frensh'));
 
 
-var assignGrade = ['A', 'B', 'C', 'D']; 
+//-------------PART Three ---------------//
 
-function assignGrade = {
-    for (var i = 0; i < assignGrade; i++) {
-        if (assignGrade[i] >= 90) {
-            return A;
-        } else if (assignGrade[i] >= 80) {
-            return B;
-        } else if (assignGrade[i] >= 70) {
-            return C;
-        } else if (assignGrade[i] >= 60) {
-            return D;
-        }
+function assignGrade(score){
+    if(score > 90){
+        return 'you get A';
+    } else if(score > 80){
+        return 'you get B';
+    } else if(score > 70){
+        return 'you get C';
+    } else{
+        return 'you get D';
     }
 };
+console.log(assignGrade(77));
+//-------------PART Three ---------------//
+
+// I could not solve it.
+
+
+
+
+
+
